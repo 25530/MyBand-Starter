@@ -1,6 +1,6 @@
 ## Titel van jouw website
-www.mijnliveomgeving.com is een website van (..jouw naam..) waar gebruikers kunnen (..nut gebruiker..) bedoeld voor (..doelgroep..)
-De website is enigszins te vergelijken met (..concurrentie1..) of (..concurrentie2..) maar toch anders omdat (..uniek aspect..)
+www.mijnliveomgeving.com is een website van Sam waar gebruikers kunnen Informatie over Gordon Ramsay kunnen zien bedoeld voor Mensen die in hem geinteresseerd zijn
+De website is enigszins te vergelijken met https://www.gordonramsay.com/ maar toch anders omdat Je hier gerechten, Info over gordon en een agenda over zijn tv programmas op de site staat.
 
 ### Uniek aan dit concept is: 
  * eerste u.s.p. (vul hier in, waarin jouw site anders is dan alle anderen)
