@@ -1,5 +1,5 @@
 ## Titel van jouw website
-www.mijnliveomgeving.com is een website van Sam waar gebruikers kunnen Informatie over Gordon Ramsay kunnen zien bedoeld voor Mensen die in hem geinteresseerd zijn
+www.Ramsay.nl is een website van Sam waar gebruikers kunnen Informatie over Gordon Ramsay kunnen zien bedoeld voor Mensen die in hem geinteresseerd zijn
 De website is enigszins te vergelijken met https://www.gordonramsay.com/ maar toch anders omdat Je hier gerechten, Info over gordon en een agenda over zijn tv programmas op de site staat.
 
 ### Uniek aan dit concept is: 
