@@ -41,12 +41,13 @@ require '../private/includes/AltoRouter.php';
  * Verder willen we nog wat andere zaken instellen en goed zetten
  * Dit staat in het bestand private/includes/init.php
  */
-
+$CONFIG = require '../private/includes/config.php';
+require '../private/includes/init.php';
 
 $router = new AltoRouter();
 
 //Als jouw public folder niet te zien is als je naar http://localhoist gaat stel dan het juiste basePath in (pas dit pad aan naar jouw situatie)
-// $router->setBasePath('/bewijzenmap/periode1.4/bap/MyBandStarter/public');
+$router->setBasePath($CONFIG['BASE_URL']);
 
 /**
  * Hier stellen we de juiste "routes" in voor onze website
@@ -55,12 +56,13 @@ $router = new AltoRouter();
 
 $router->map( 'GET', '/', 'HomeController#homepage', 'home' );
 
-$router->map( 'GET', '/evenementen', 'EventsController#overview', 'agenda-overzicht' );
+$router->map( 'GET', '/agenda', 'AgendaController#agenda', 'agenda-overzicht' );
 
-$router->map( 'GET', '/onze-huisjes', 'FacilitiesController#housesOverview', 'huisjes' );
-$router->map( 'GET', '/onze-huisjes/huis/[i:id]', 'FacilitiesController#showHouse', 'toon-huis' );
+$router->map( 'GET', '/news', 'NewsController#news', 'news-overzicht' );
 
-$router->map( 'GET', '/over-ons', 'PageController#aboutUs', 'over-ons' );
+$router->map( 'GET', '/contact', 'ContactController#contact', 'contact-overzicht' );
+
+$router->map( 'GET', '/zoeken', 'ZoekenController#zoeken', 'zoeken-overzicht' );
 
 // Ajax Voorbeeld
 $router->map( 'GET', '/ajax-voorbeeld', 'AjaxController#ajaxPage', 'ajax-example');

@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,300i,400');
+@import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato';
+    color: white;
+    height: 100%;
+}
+/*
+*header
+*/
+header{
+    background-color: rgb(49, 49, 49);
+    color: white;
+    border-bottom: 2px solid rgb(218, 0, 0);
+    overflow: hidden;
+    background-color: #333;
+    height: 4.5em;
+}
+header img{
+  margin-left: 15px;
+  height: 4.5em;
+  border-radius: 25%;
+}
+
+header p{
+  margin-top: 5px;
+  margin-left: 0.5em;
+  position: absolute;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.7em;
+}
+
+    footer{
+        background-color: rgb(49, 49, 49);
+        color: white;
+        text-align: center;
+        padding: 0.5em;
+        position: relative;
+        bottom: 0;
+    }
+.Filmpje{
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 18%;
+    width: 100%;
+    
+}
+/*
+  artikelen
+*/
+.artikol {
+  display: grid;
+  color: black;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+.nieuws {
+  background:
+            linear-gradient(
+                    rgba(255, 166, 0, 0.466),
+                    rgba(241, 157, 0, 0.45)
+            ),
+            url(../images/kitchen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 1s ease-out;
+    height: 35em;
+}
+.inleiding {
+  background:
+            linear-gradient(
+                    rgba(41, 40, 40, 0.466),
+                    rgba(75, 75, 75, 0.466)
+            ),
+            url(../images/restaurann.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 1s ease-out;
+    height: 80vh;
+}
+.boksje{
+  background: rgba(255, 255, 255, 0.45);
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  color: black;
+  height: 80%;
+}
+.boksje h2 {
+  color: black;
+  font-family: 'Lato';
+  margin: 14px;
+  
+}
+.boksje p{
+  margin: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+.box img{
+  width: 100%;
+}
+.box {
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+  background: rgba(255, 255, 255, 0.45);
+  padding: 1em 1em;
+}
+ h1{
+    font-size: 4em;
+    font-family: 'Courgette';
+}
+h2{
+  text-align: center;
+  font-family: 'Signika';
+  color: rgb(247, 247, 247);
+}
+h3{
+    font-size: 1.5em;
+    font-family: 'Courgette';
+}
+  
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  color: white;
+  padding: 0.7em 0.2em;
+  background-color: #333;
+  font-family: inherit;
+  margin: 0;
+  margin-right: 3em; 
+  border: 0px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 23.7vh;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-collapse: collapse;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  .balkje{
+    border-top: 2px solid rgb(218, 0, 0);
+    background-color: rgb(49, 49, 49);
+    display: block;
+    width: 100%;
+    height: 4.5em;
+  }
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    position: relative;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-github {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+.agendawrapper{
+  display: grid;
+  height:140vh;
+  background:
+            linear-gradient(
+                    rgba(189, 0, 0, 0.685),
+                    rgba(189, 0, 0, 0.685)
+            ),
+            url(../images/restaura.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 1s ease-out;
+}
+.agendaa{
+  margin-top: 1em;
+  color: black;
+  width: 100%;
+
+}
+table{
+    color: #ddd;
+    margin-top: 10vh;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    background: rgba(53, 53, 53, 0.767);
+    border-collapse: collapse;
+    width: 60%;
+    margin-left: 20% 
+}
+th,td{
+    text-align: left;
+    padding: 8px;
+}
+th{
+    background: rgba(0, 0, 0, 0.767);
+    border-collapse: collapse;
+    position: inherit;
+}
+td{
+    border-bottom: 2px solid rgba(155, 155, 155, 0.767);
+}
+#artiekeldiv{
+    color: black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+}
+#artiekeldiv h2{
+    color: black;
+
+}
+#artiekeldiv p{
+  margin: 15px;
+
+}
+#artiekeldiv img{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 3px solid black;
+}
+body{
+    background:
+            linear-gradient(
+                    rgba(96, 0, 134, 0.685),
+                    rgba(96, 0, 134, 0.685)
+            ),
+            url(../images/restaurann.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 80%;
+  margin-left: 120px;
+  height: 3em;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 9px;
+  margin-left: 120px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.contactainer {
+
+  background-color: #f2f2f2;
+  padding: 10px;
+  color: black;
+  height: 150em;
+}
+.contactainer h2{
+  color: black;
+}
+/* Create two columns that float next to eachother */
+.column {
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+  float: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.contactainer img{
+  margin-left: 7%;
+  width:20%;
+  float: left;
+}
+.search-bar{
+  padding: 10px 0;
+}
+
+.search-bar form{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 10px;
+}
+
+.search-bar button{
+  background: #333;
+  color: white;
+  margin-right: 120px;
+  font-size: 16px;
+  text-align: center;
+}
+#fname{
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+#veldje label{
+  margin-left: 120px;
+}
+.wrop{
+  height: 150em;
+}
